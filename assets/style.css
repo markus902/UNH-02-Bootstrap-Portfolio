@@ -1,0 +1,107 @@
+
+h1{
+    font-size: 28px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1.name_tag_h1{
+    position: relative;
+    float: left;
+    width: auto;
+    margin: 0 0 0 0;
+    padding: 25px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    width: 100%;
+}
+div.name_tag_div{
+    text-align: center;
+}
+
+div.main_background{
+    float: left;
+    position: relative;
+    background-image: url("../images/papyrus.png");
+    background-repeat: repeat;
+    border-top: 2px solid #cccccc;
+    height: 100%;
+    margin:0 auto;
+    clear: both;
+}
+
+div.container{
+    padding: 0;
+}
+
+div.nav-margin{
+    margin-top: 20px;
+}
+
+div.paragraph_container{
+    background-color: #ffffff;
+    height: auto;
+    margin: 0px 10%;
+    padding: 20px 0 20px 0;
+    overflow: visible;
+}
+
+div.paragraph_image_wrapper{
+    position: relative;
+    clear: both;
+    border-top: 2px solid #dddddd;
+    margin: 20px;
+    padding-top: 25px;
+    height: auto;
+}
+
+h1.paragraph_headline{
+    float: left;
+    color: #4aaaa5;
+    clear: both;
+    padding-left: 20px;
+}
+
+img.me_image{
+    float: left;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+div.portfolio_image{
+    float: left;
+    position: relative;
+    margin: 20px 20px 0 20px;
+    border-radius: 30px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+a:hover{
+    background-color: #777777;
+    color: #ffffff;
+}
+
+a.text_link{
+    color:#777777;
+}
+
+a.text_link:hover{
+    color: #ffffff;
+}
+
+div.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    color: #ffffff;
+    background-color: #666666;
+    border-top: 6px solid #4aaaa5;
+    text-align: center;
+}
