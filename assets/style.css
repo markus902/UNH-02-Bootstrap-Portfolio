@@ -75,6 +75,24 @@ div.portfolio_image{
     display: table;
   }
 
+  a.link{
+    position: relative;
+    float: left;
+    color:#777777;
+    text-decoration: none;
+}
+
+a.left_link, a.right_link{
+    padding: 0 15px 0 15px;
+    margin: 0;
+}
+
+a.center_link{
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+    padding: 0 15px 0 15px;
+}
+
 a:hover{
     background-color: #777777;
     color: #ffffff;
@@ -99,7 +117,7 @@ div.footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 80px;
     color: #ffffff;
     background-color: #666666;
     border-top: 6px solid #4aaaa5;
@@ -118,10 +136,6 @@ div.footer{
 
     h1.name_tag_h1{
         width: 100%;
-    }
-
-    nav.navbar-expand-lg{
-        float: left;;
     }
 
   }
