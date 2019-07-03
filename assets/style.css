@@ -7,7 +7,7 @@ h1.name_tag_h1{
     position: relative;
     float: left;
     width: auto;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 0px;
     padding: 25px;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -18,9 +18,15 @@ div.name_tag_div{
     text-align: center;
 }
 
+div.background_only{
+    background-image: url("../images/papyrus.png");
+}
+
 div.background_border{
     border-top: 2px solid #cccccc;
 }
+
+
 
 div.container{
     padding: 0;
@@ -33,7 +39,7 @@ div.nav-margin{
 div.paragraph_container{
     background-color: #ffffff;
     height: auto;
-    margin: 0px 10%;
+    margin: 0px 0px;
     padding: 20px 0 20px 0;
     overflow: visible;
 }
@@ -62,6 +68,11 @@ img.me_image{
     height: auto;
 }
 
+img.project_image{
+    width: 250px;
+    height: auto;
+}
+
 div.portfolio_image{
     float: left;
     position: relative;
@@ -75,11 +86,16 @@ div.portfolio_image{
     display: table;
   }
 
-  a.link{
+a.link{
     position: relative;
     float: left;
     color:#777777;
     text-decoration: none;
+}
+
+a:hover{
+    background-color: #777777;
+    color: #ffffff;
 }
 
 a.left_link, a.right_link{
@@ -91,11 +107,6 @@ a.center_link{
     border-left: 1px solid #777777;
     border-right: 1px solid #777777;
     padding: 0 15px 0 15px;
-}
-
-a:hover{
-    background-color: #777777;
-    color: #ffffff;
 }
 
 a.text_link{
@@ -113,6 +124,22 @@ p{
     padding-right: 10px;
 }
 
+div.project_div{
+    float: left;
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 23px;
+}
+
+div.project_div:hover{
+    background-color: #283635;
+}
+
 div.footer{
     position: fixed;
     bottom: 0;
@@ -123,6 +150,12 @@ div.footer{
     border-top: 6px solid #4aaaa5;
     text-align: center;
     padding-top: 10px;
+}
+
+div.placeholder{
+    height: 70px;
+    width: 100%;
+    float: left;
 }
 
 @media screen and (max-width: 768px){
@@ -136,6 +169,17 @@ div.footer{
 
     h1.name_tag_h1{
         width: 100%;
+        margin-left: 0;
     }
 
+    div.paragraph_container{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    img.project_image{
+        width: 100%;
+        height: auto;
+    }
   }
+  
