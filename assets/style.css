@@ -5,7 +5,6 @@ html{
 h1.name_tag_h1{
     float: left;
     width: 100%;
-    margin: 30px 0 0 0;
     padding: 25px;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -158,15 +157,9 @@ input.message{
 }
 
 @media only screen and (max-width: 768px) {
-    h1.name_tag_h1 {
-        width: 100%;
-    }
-
-    img.meimage{
-        width: 100%;
-        height: auto;
-        padding: 10px;
-    }
+   .center_nav{
+       justify-content: center;
+   }
   } 
 
 
