@@ -2,6 +2,7 @@ html{
     width: 100%
 }
 
+
 h1.name_tag_h1{
     float: left;
     width: 100%;
@@ -41,7 +42,7 @@ section.main_background{
     background-image: url("../images/papyrus.png");
     background-repeat: repeat;
     border-top: 2px solid #cccccc;
-    width: 100%;
+    width: 102%;
     height: 100%;
     margin:0 auto;
     padding-top: 15px;
@@ -78,12 +79,11 @@ p{
     color: #777777;
     line-height: 1.5;
     margin: 0;
+    text-align: justify;
 }
 
 h1.paragraph_headline{
-    float: left;
     color: #4aaaa5;
-    clear: both;
 }
 
 div.paragraph_image_wrapper{
